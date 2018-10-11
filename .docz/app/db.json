@@ -1,0 +1,36 @@
+{
+  "config": {
+    "title": "CSS PostCSS",
+    "description": "My awesome app using docz",
+    "themeConfig": {},
+    "menu": [],
+    "ordering": "descending",
+    "version": "1.0.0",
+    "repository": "https://github.com/mundizzle/ds",
+    "native": false
+  },
+  "entries": {
+    "src/index.mdx": {
+      "name": "Getting Started",
+      "route": "/",
+      "id": "6576455a124f9aaefd860597f03a8fe4",
+      "filepath": "src/index.mdx",
+      "link": "https://github.com/mundizzle/ds/edit/master/src/index.mdx",
+      "slug": "src-index",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "getting-started",
+          "value": "Getting Started"
+        },
+        {
+          "depth": 2,
+          "slug": "consistency",
+          "value": "Consistency"
+        }
+      ]
+    }
+  }
+}
