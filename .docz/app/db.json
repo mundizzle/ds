@@ -1,22 +1,24 @@
 {
   "config": {
-    "title": "CSS PostCSS",
+    "title": "Blazing Fast HTML Prototyping",
     "description": "My awesome app using docz",
     "themeConfig": {},
     "menu": [],
     "ordering": "descending",
     "version": "1.0.0",
     "repository": "https://github.com/mundizzle/ds",
-    "native": false
+    "native": false,
+    "src": "./src",
+    "base": "/ds/"
   },
   "entries": {
-    "src/index.mdx": {
+    "index.mdx": {
       "name": "Getting Started",
       "route": "/",
       "id": "6576455a124f9aaefd860597f03a8fe4",
-      "filepath": "src/index.mdx",
+      "filepath": "index.mdx",
       "link": "https://github.com/mundizzle/ds/edit/master/src/index.mdx",
-      "slug": "src-index",
+      "slug": "index",
       "order": 0,
       "menu": null,
       "headings": [
@@ -31,6 +33,17 @@
           "value": "Consistency"
         }
       ]
+    },
+    "components/button/index.mdx": {
+      "name": "Button",
+      "id": "36553ba1c85d53648dc49fe75ae81de2",
+      "filepath": "components/button/index.mdx",
+      "link": "https://github.com/mundizzle/ds/edit/master/src/components/button/index.mdx",
+      "slug": "components-button-index",
+      "route": "/components-button-index",
+      "order": 0,
+      "menu": null,
+      "headings": []
     }
   }
 }

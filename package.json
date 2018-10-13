@@ -26,6 +26,7 @@
     "eslint": "5.6.1",
     "eslint-config-prettier": "3.1.0",
     "eslint-plugin-prettier": "3.0.0",
+    "eslint-plugin-react": "7.11.1",
     "gh-pages": "2.0.1",
     "plop": "2.1.0",
     "prettier": "1.14.3"

@@ -1,4 +1,6 @@
 export const imports = {
-  'src/index.mdx': () =>
-    import(/* webpackPrefetch: true, webpackChunkName: "src-index" */ 'src/index.mdx'),
+  'index.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "index" */ 'index.mdx'),
+  'components/button/index.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "components-button-index" */ 'components/button/index.mdx'),
 }
