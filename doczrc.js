@@ -1,3 +1,5 @@
 export default {
-  title: "CSS PostCSS"
+  title: "Blazing Fast HTML Prototyping",
+  src: "./src",
+  base: "/ds/"
 };
