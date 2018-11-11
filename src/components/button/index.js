@@ -1,10 +1,16 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
-export class Button extends Component {
-  state: {
-    cool: true
-  };
-  render() {
-    return <button>MUNDI</button>;
-  }
-}
+import "./index.css";
+
+const Button = ({ children }) => <button>{children}</button>;
+
+Button.propTypes = {
+  children: PropTypes.node
+};
+
+Button.defaultProps = {
+  children: "Submit"
+};
+
+export default Button;

@@ -6,8 +6,7 @@
   "scripts": {
     "start": "docz dev",
     "build": "docz build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d .docz/dist"
+    "update": "npx npm-check-updates -u"
   },
   "repository": {
     "type": "git",
@@ -20,20 +19,18 @@
     "url": "https://github.com/mundizzle/ds/issues"
   },
   "homepage": "https://github.com/mundizzle/ds#readme",
-  "devDependencies": {
-    "babel-eslint": "10.0.1",
-    "docz": "0.12.5",
-    "eslint": "5.6.1",
-    "eslint-config-prettier": "3.1.0",
-    "eslint-plugin-prettier": "3.0.0",
-    "eslint-plugin-react": "7.11.1",
-    "gh-pages": "2.0.1",
-    "plop": "2.1.0",
-    "prettier": "1.14.3"
-  },
   "dependencies": {
     "prop-types": "15.6.2",
-    "react": "16.5.2",
-    "react-dom": "16.5.2"
+    "react": "16.6.1",
+    "react-dom": "16.6.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "docz": "0.12.9",
+    "docz-plugin-css": "0.11.0",
+    "eslint": "5.9.0",
+    "eslint-config-prettier": "3.3.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "prettier": "1.15.2"
   }
 }

@@ -1,5 +1,18 @@
+import { css } from "docz-plugin-css";
+
 export default {
-  title: "Blazing Fast HTML Prototyping",
-  src: "./src",
-  base: "/ds/"
+  plugins: [
+    css({
+      preprocessor: "postcss"
+    })
+  ],
+  themeConfig: {
+    colors: {},
+    styles: {},
+    logo: {
+      src:
+        "https://raw.githubusercontent.com/mundizzle/ds/master/assets/logo.svg",
+      width: 200
+    }
+  }
 };
